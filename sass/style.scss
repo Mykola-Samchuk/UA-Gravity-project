@@ -1,0 +1,35 @@
+body {
+  background: #010101;
+}
+a {
+  text-decoration: none;
+}
+.link-menu-link {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.13em;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #c7c7c7;
+  padding: 5px;
+}
+.link-active {
+  color: #ffffff;
+}
+.btn {
+  padding: 1em;
+}
+.contant {
+  width: 85%;
+  margin: 0 auto;
+}
+// header
+@import "header";
+// main
+@import "main";
+// footer 
+@import "footer";
+
+
+// font-family: 'Montserrat', sans-serif; font-family: 'Oswald', sans-serif; font-family: 'Raleway', sans-serif;
